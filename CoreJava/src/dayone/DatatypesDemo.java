@@ -1,4 +1,4 @@
-package DayOne;
+package dayone;
 
 public class DatatypesDemo {
 
