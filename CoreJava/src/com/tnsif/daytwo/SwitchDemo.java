@@ -1,4 +1,4 @@
-package daytwo;
+package com.tnsif.daytwo;
 
 public class SwitchDemo {
 	public static void main(String[] args) {

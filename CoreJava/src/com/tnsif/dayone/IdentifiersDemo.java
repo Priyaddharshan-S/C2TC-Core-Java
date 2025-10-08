@@ -1,4 +1,4 @@
-package dayone;
+package com.tnsif.dayone;
 
 public class IdentifiersDemo {
 
