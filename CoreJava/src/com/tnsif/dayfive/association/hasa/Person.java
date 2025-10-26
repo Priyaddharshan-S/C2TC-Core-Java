@@ -1,8 +1,13 @@
+//Program to define Container class
 package com.tnsif.dayfive.association.hasa;
 
+//Container class
 public class Person {
 
-	public static void main(String[] args) {
+	private String name;
+	private Address address;
+
+	public Person(String name, Address address) {
 		this.name = name;
 		this.address = address;
 	}
@@ -29,7 +34,5 @@ public class Person {
 		System.out.println("Name: " + name);
 		System.out.println("Address: " + address.getStreet() + ", " + address.getCity() + ", " + address.getState()
 				+ " " + address.getPostalCode());
-
 	}
-
 }
